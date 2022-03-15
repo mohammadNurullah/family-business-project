@@ -1,0 +1,43 @@
+#style_word {
+  font-style: italic;
+  font-weight: 500;
+}
+
+#banner_content {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/vendorse/images/1.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#font_big {
+  font-size: 3.5rem;
+}
+
+#banner_2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/vendorse/images/2.jpeg);
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.font_big {
+  font-size: 3rem;
+}
+
+.img_style {
+  width: 350px;
+  height: 380px;
+}
+
+/* body::before {
+  content: "";
+  display: block;
+  height: 50px;
+} */
